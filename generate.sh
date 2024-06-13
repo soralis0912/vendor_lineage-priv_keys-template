@@ -2,11 +2,11 @@
 
 certificates=(
     bluetooth
-    cts_uicc_2021
     cyngn-app
     media
     networkstack
     platform
+    releasekey
     sdk_sandbox
     shared
     testcert
@@ -16,8 +16,8 @@ certificates=(
 
 apex_certificates=(
     com.android.adbd
-    com.android.adservices.api
     com.android.adservices
+    com.android.adservices.api
     com.android.appsearch
     com.android.art
     com.android.bluetooth
@@ -40,8 +40,8 @@ apex_certificates=(
     com.android.i18n
     com.android.ipsec
     com.android.media
-    com.android.mediaprovider
     com.android.media.swcodec
+    com.android.mediaprovider
     com.android.nearby.halfsheet
     com.android.networkstack.tethering
     com.android.neuralnetworks
@@ -63,6 +63,7 @@ apex_certificates=(
     com.android.uwb.resources
     com.android.virt
     com.android.vndk.current
+    com.android.vndk.current.on_vendor
     com.android.wifi
     com.android.wifi.dialog
     com.android.wifi.resources
