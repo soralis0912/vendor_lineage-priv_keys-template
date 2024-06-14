@@ -160,8 +160,6 @@ generate_certificates() {
 create_symlinks() {
     echo "Creating system links..."
     ln -sf ../../../build/make/target/product/security/BUILD.bazel BUILD.bazel
-    ln -sf testkey.pk8 releasekey.pk8
-    ln -sf testkey.x509.pem releasekey.x509.pem
 }
 
 generate_android_bp() {
