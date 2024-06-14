@@ -1,5 +1,5 @@
 ```bash
-croot && git clone https://github.com/Evolution-XYZ/vendor_evolution-priv_keys-template vendor/lineage-priv/keys
+croot && git clone https://github.com/soralis0912/vendor_lineage-priv_keys-template.git vendor/lineage-priv/keys
 ```
 
 ```bash
